@@ -1,4 +1,4 @@
-const { sequelize } = require('../config/database_mysql');
+const { sequelize } = require('../config/database');
 const logger = require('../utils/logger');
 const geolib = require('geolib');
 const moment = require('moment');
